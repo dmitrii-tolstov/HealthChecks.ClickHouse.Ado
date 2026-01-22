@@ -26,7 +26,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="ClickHouse.Ado" Version="2.0.5" />
-		<PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="10.0.2" />
+		<PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="3.1.0" />
 	</ItemGroup>
 
 </Project>
