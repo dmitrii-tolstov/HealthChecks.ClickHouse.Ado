@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<FileVersion>1.0.0</FileVersion>
+		<FileVersion>1.0.1</FileVersion>
 		<Product>HealthChecks.ClickHouse.Ado</Product>
 		<Authors>Tolstov Dmitrii</Authors>
 		<Description>ClickHouse.Ado connection health check</Description>
@@ -9,6 +9,7 @@
 		<Title>HealthChecks.ClickHouse.Ado</Title>
 		<PackageId>HealthChecks.ClickHouse.Ado</PackageId>
 		<PackageTags>clickhouse healthcheck</PackageTags>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/dmitrii-tolstov/HealthChecks.ClickHouse.Ado</PackageProjectUrl>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -17,11 +18,13 @@
 
 	<ItemGroup>
 		<None Include="..\LICENSE" Pack="true" PackagePath="." />
+		<None Include="..\readme.md" Pack="true" PackagePath="." />
 	</ItemGroup>
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<LangVersion>latest</LangVersion>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
